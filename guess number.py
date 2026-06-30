@@ -1,4 +1,4 @@
-# making the guess code for 1 to 10 number by typing manually 
+# making the guess code for 1 to 10 number by typing manually
 number=7
 
 attempt=0
