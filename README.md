@@ -16,7 +16,7 @@ In this repository, you will find:
 
 - Guess Number Game
 
-(New projects will be added regularly.)
+(New projects will be after some time)
 
 ## Technologies
 
