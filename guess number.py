@@ -1,14 +1,21 @@
 # making the guess code for 1 to 10 number by typing manually 
-number=7
-
-attempt=0
+import random
 
 while True:
-  choice=input("play agin? yes/no: ")
+
+  number=random.randint(1,10)
+
+  choice=input("play again? yes/no: ").lower()
+
+  attempt=0
 
   if choice=='yes':
     while True:
-      guess_the_number=int(input('enter your number in range 0-10 :'))
+      try:
+       guess_the_number=int(input('enter your number in range 0-10 :'))
+      except ValueError:
+        print('Please Enter a Valid Number') 
+        continue
   
 
 
@@ -34,11 +41,12 @@ while True:
          print('your guess is higher guess lower')
     
     
-      else:
-        pass
+      
   
     print(f'You guessed the number in {attempt} attempts.')
   
   elif choice=='no':
-    break         
+    break 
+  else:
+    print("Please enter yes or no.")          
         
