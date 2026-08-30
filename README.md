@@ -16,6 +16,7 @@ In this repository, you will find:
 
 - Guess Number Game
 - designer door mat
+- calculator
 
 (New projects will be after some time)
 
